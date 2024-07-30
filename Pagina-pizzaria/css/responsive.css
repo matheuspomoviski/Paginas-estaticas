@@ -1,0 +1,103 @@
+/* pequenos computadores */
+
+@media (max-width: 1100px){
+    .cardapio ul{
+        width: 98%;
+        
+    }
+    .cardapio .preco{
+        font-size: 16px;
+
+   
+    }
+    .cardapio li{
+
+        padding: 1rem;
+    }
+}
+
+/* tablets */
+@media (max-width: 900px){
+    .nav-container{
+        padding: 0 1rem;
+    }
+    .nav-itens a{
+        font-size: 15px;
+    }
+    .nav-itens li{
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .cardapio ul{
+        width: 100%;
+        
+    }
+    .cardapio .preco{
+        font-size: 16px;
+
+   
+    }
+    .cardapio li{
+        margin: 6px 3px;
+        padding: 0.5rem;
+    }
+    
+}
+/* celulares */
+
+@media(max-width: 576px){
+    html, body{
+        overflow-x: hidden;
+    }
+    .nav-container h3{
+        font-size: 16px;
+        color: #FFF;
+        font-weight: bold;
+    }
+    .nav-itens a{
+        font-size: 12px;
+    }
+    .nav-itens li{
+        margin-left: 4px;
+        
+    }
+    .cardapio ul{
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .cardapio li{
+        margin: 6px auto;
+        padding: 0.5rem;
+    }
+    .cardapio p{
+        color: rgb(73, 73, 73);
+        line-height: 24px;
+    }
+
+    .cardapio .preco{
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20px;
+        color: #ea8d31;
+    }
+    .endereco h2{
+        color: #fff;
+        padding: 2rem;
+        font-size: 38px;
+    }
+    .endereco p{
+        color: #fff;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        text-shadow: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .endereco span{
+        font-weight: bolder;
+        font-size: 19px;
+    }
+}

@@ -1,0 +1,188 @@
+/* Root 
+Font Family: Work Sans
+h1 color: #353535
+
+
+
+*/
+
+/* Parâmetros gerais da página */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Work Sans, Arial, sans-serif;
+}
+
+/* definicao do tamanho e cores da barra de navegacao */
+.nav-container{
+    width: 100%;
+    height: 60px;
+    background-color: #BF211E;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.511);
+    padding: 0 2rem;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.nav-container h3{
+    font-size: 22px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.nav-itens{
+    position: absolute;
+    right: 10px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+    display: inline-block;
+}
+
+.nav-itens li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.nav-itens a{
+    text-decoration: none;
+    color: #f1efef;
+    transition: 0.4s ease-out;
+    font-size: 18px;
+    text-shadow: 2px 0.5px 4px rgba(0, 0, 0, 0.829);
+}
+
+.nav-itens a:hover{
+    font-size: 20px;
+    color: #b8bfc0;
+
+}
+
+
+
+/* banner */
+
+.banner{
+    width: 100%;
+    height: 600px;
+    background-image: url(/Pizzaria/img/titulo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 15rem 0 ;
+}
+
+.banner > h1, .banner > P{
+    color: #fff;
+    text-align: center;
+    text-shadow: 3px 2px 6px black;
+}
+
+/* Section */
+
+h2{
+    margin-top: 5px;
+    margin-bottom: 20px;
+   font-size: 54px;
+   color: #ea8d31;
+    text-align: center;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.349);
+}
+
+.cardapio ul{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.cardapio li{
+    flex: 1 1 300px;
+    padding: 2rem;
+    border: 1px solid grey;
+    margin: 6px 5px;
+    list-style: none;
+    border-radius: 7px;
+}
+
+
+/* Classe para o nome do sabor da pizza dentro das listas */
+.sabor{
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.cardapio p{
+    color: rgb(73, 73, 73);
+    line-height: 30px;
+}
+.cardapio .preco{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    color: #ea8d31;
+}
+
+/* endereco */
+
+article{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(90deg, rgba(41,53,43,1) 0%, rgb(59, 66, 58) 35%, #412d1a 100%);
+
+}
+
+
+.endereco h2{
+    color: #fff;
+    padding: 3rem;
+}
+
+.endereco p{
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    text-shadow: none;
+}
+
+.endereco span{
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+/* parametros do botao de conferir rota */
+
+.botao{
+    margin: auto;
+    width: 320px;
+    background-color: white;
+    text-align: center;
+    border-radius: 30px;
+    padding: 0.5em;
+    font-size: 20px;
+    margin: 80px auto;
+}
+
+.endereco a{
+    text-decoration: none;
+    color: #ea8d31;
+    font-weight: bolder;
+}
+
+.botao:hover{
+    font-size: 22px;
+    background-color: #faf1e8;
+    transition: 0.5s ease-out;
+}
